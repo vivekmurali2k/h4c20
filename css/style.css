@@ -1230,20 +1230,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: -200px;
   }
 
-  #call-to-action .cta-btn-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-  }
+ 
 }
 
 @media (min-width: 1025px) {
