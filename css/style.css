@@ -1331,8 +1331,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .img-gg{
-    width: 200px; /* You can set the dimensions to whatever you want */
-    height: 200px;
+    width: 200px ; /* You can set the dimensions to whatever you want */
+    height: 200px ;
     object-fit: cover;
 }
 
@@ -1610,8 +1610,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: transparent !important;
 }
 .cid-qBMwctTulk .image_wrapper {
+  
   height: 400px;
-  width: 100%;
+  width: 400px;
+  
   position: relative;
   display: inline-block;
 }
