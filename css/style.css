@@ -821,6 +821,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
+
 /* Clients Section
 --------------------------------*/
 
@@ -1333,6 +1334,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #more-features h4,
   #more-features p {
+    margin-left: 0;
+    text-align: center;
+  }
+  #more-features-1 .box {
+    margin-bottom: 20px;
+  }
+
+  #more-features-1 .icon {
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  #more-features-1 h4,
+  #more-features-1 p {
     margin-left: 0;
     text-align: center;
   }
