@@ -127,6 +127,8 @@ jQuery(document).ready(function($) {
   });
 
   // custom code
+  $.mobile.loadingMessage = false;
+
   $("#myCarousel").swiperight(function() {
     $(this).carousel('prev');
   });
