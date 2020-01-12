@@ -169,7 +169,7 @@ h6 {
   color: rgb(255, 253, 253);
   text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
                  0px -5px 35px rgba(255,255,255,0.3);
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black
 }
 
 #intro p {
@@ -177,7 +177,7 @@ h6 {
   margin-bottom: 20px;
   padding: 0 15px;
   font-size: 25px;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
 
 #intro .btn-get-started {
