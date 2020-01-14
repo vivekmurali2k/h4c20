@@ -821,6 +821,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
+
 /* Clients Section
 --------------------------------*/
 
@@ -1229,20 +1230,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: -200px;
   }
 
-  #call-to-action .cta-btn-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-  }
+ 
 }
 
 @media (min-width: 1025px) {
@@ -1336,11 +1324,26 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: 0;
     text-align: center;
   }
+  #more-features-1 .box {
+    margin-bottom: 20px;
+  }
+
+  #more-features-1 .icon {
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  #more-features-1 h4,
+  #more-features-1 p {
+    margin-left: 0;
+    text-align: center;
+  }
 }
 
 .img-gg{
-    width: 200px; /* You can set the dimensions to whatever you want */
-    height: 200px;
+    width: 200px ; /* You can set the dimensions to whatever you want */
+    height: 200px ;
     object-fit: cover;
 }
 
@@ -1618,8 +1621,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: transparent !important;
 }
 .cid-qBMwctTulk .image_wrapper {
+  
   height: 400px;
-  width: 100%;
+  width: 400px;
+  
   position: relative;
   display: inline-block;
 }
