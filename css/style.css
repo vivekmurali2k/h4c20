@@ -162,22 +162,22 @@ h6 {
   margin: 30px 0 10px 0;
   padding: 0 15px;
   font-size: 70px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 56px;
   color:white;
   
   color: rgb(255, 253, 253);
   text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
                  0px -5px 35px rgba(255,255,255,0.3);
-  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  text-shadow: 7px 7px 2px black, 0 0 25px black, 0 0 25px black;
 }
 
 #intro p {
-  color: white);
+  color: white;
   margin-bottom: 20px;
   padding: 0 15px;
   font-size: 25px;
-  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  text-shadow: 6px 6px 2px black, 0 0 25px black, 0 0 25px black;
 }
 
 #intro .btn-get-started {
@@ -1723,3 +1723,53 @@ section .section-title {
   border-radius: 50%;
 }
 
+#about  p {
+  line-height: 26px;
+}
+
+#about  p:last-child {
+  margin-bottom: 0;
+}
+
+#about  .icon-box {
+  background: #f7f7f7;
+  background-size: cover;
+  padding: 0 0 30px 0;
+}
+
+#about .icon-box .icon {
+  float: left;
+  background: #f7f7f7;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #2dc997;
+}
+
+#about  .icon-box .icon i {
+  color: #2dc997;
+  font-size: 24px;
+}
+
+#about .icon-box .title {
+  margin-left: 80px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#about  .icon-box .title a {
+  color: #111;
+}
+
+#about  .icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
