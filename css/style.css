@@ -563,7 +563,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #features {
-  background: rgb(51, 102, 153);
+  background: rgb(51, 102, 153));
   padding: 60px 0 0 0;
   overflow: hidden;
 }
@@ -1765,7 +1765,7 @@ section .section-title {
 }
 
 #about  .icon-box .title a {
-  color: #111;
+  color: white;
 }
 
 #about  .icon-box .description {
